@@ -1,0 +1,33 @@
+body {
+    background-color: #45ff42;
+}
+
+#word-input {
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    box-shadow: 9px 11px 15px rgba(0, 0, 0, 0.78);
+    border-bottom: thin;
+    background-color: #fea6ff;
+}
+
+#input-container {
+    margin-top: 50px;
+}
+
+#canvas {
+    -webkit-filter: drop-shadow( 50px 30px 4px rgba(0, 0, 0, 0.62));
+    filter: drop-shadow( 50px 30px 5px rgba(0, 0, 0, 0.63));
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#input-container {
+    text-align: center;
+}
